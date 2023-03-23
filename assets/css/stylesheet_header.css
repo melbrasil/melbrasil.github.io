@@ -1,0 +1,15 @@
+header {
+    background-color: #ffc0cb;
+    height: 50px;
+}
+
+a {
+    display: flex;
+    align-content: stretch;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
