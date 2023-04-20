@@ -9,3 +9,7 @@ footer {
     display: flex;
     justify-content: center;
 }*/
+
+p {
+    @include textSmall;
+}
