@@ -10,6 +10,15 @@
     flex-direction: column;
     margin: 0;
     height: 100svh;
+    &.about {
+      background: tomato;
+    }
+    &.contacts {
+      background: yellow;
+    }
+    &.home {
+      background: lightblue;
+    }
   }
   /*h1 {
     font-family: Arial, sans-serif;
@@ -26,7 +35,7 @@
 
   p {
     font-family: Arial, sans-serif;
-    color: $text-secundary-color;
+    color: #000;
     font-size: 14px;
     line-height: 1.4;
     text-align: center;
@@ -61,7 +70,7 @@
   }
   
   main {
-      background: $main-background-color;
+      //background: $main-background-color;
       flex-grow: 1;
       display: flex;
       align-items: center;
@@ -101,3 +110,5 @@
       overflow: hidden;
       padding-bottom: ratio(4, 3);
     }
+
+  

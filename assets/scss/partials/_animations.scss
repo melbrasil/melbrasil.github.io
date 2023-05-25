@@ -1,4 +1,193 @@
+
 body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: sans-serif;
+	background-color: #262626;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+ul li {
+	list-style: none;
+	color: #484848;
+	font-size: 80px;
+	letter-spacing: 15px;
+	animation: lighting 1.6s linear infinite;
+}
+
+@keyframes lighting {
+	0% {
+		color: #484848;
+		text-shadow: none;
+	}
+
+	90% {
+		color: #484848;
+		text-shadow: none;
+	}
+
+	100% {
+		color: #fff900;
+		text-shadow: 0 0 7px #fff900, 0 0 50px #ff6c00;
+	}
+}
+
+ul li:nth-child(1) {
+	animation-delay: 0
+}
+
+ul li:nth-child(2) {
+	animation-delay: 0.1s
+}
+
+ul li:nth-child(3) {
+	animation-delay: 0.2s
+}
+
+ul li:nth-child(4) {
+	animation-delay: 0.3s
+}
+
+ul li:nth-child(5) {
+	animation-delay: 0.4s
+}
+
+ul li:nth-child(6) {
+	animation-delay: 0.5s
+}
+
+ul li:nth-child(7) {
+	animation-delay: 0.6s
+}
+
+ul li:nth-child(8) {
+	animation-delay: 0.7s
+}
+ul li:nth-child(9) {
+	animation-delay: 0.8s
+}
+ul li:nth-child(10) {
+	animation-delay: 0.9s
+}
+
+/*---- exercicio animation-effect-04 -----
+
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: sans-serif;
+ }
+h1 {
+   margin: 0;
+   padding: 0;
+   font-size: 150px;
+   color: #ccc;
+   text-transform: uppercase;
+   position: relative;
+ }
+ h1 {
+  &:before {
+    content: "texto";
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+    overflow: hidden;
+    width: 0;
+  }
+
+  &:hover {
+    &:before {
+      width: 100%;
+      color: black;
+    }
+  }
+ }
+------------*/ 
+
+/* ---- exercicio animation-effect-01 -----
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  position: relative;
+  width: 320px;
+  padding: 40px;
+  background-color: white;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.card {
+	&:before {
+		content: "";
+		position: absolute;
+		left: 0;
+		bottom: calc(-100% + 5px);
+		width: 100%;
+		height: 100%;
+		background-color: red;
+		transition: 0.5s;
+	}
+	&:hover {
+		&:before {
+			bottom: 0;
+		}
+		.content-text {
+			color: #fff;
+		}
+	}
+}
+
+.content-text {
+  position: relative;
+  text-transform: capitalize;
+  color: #777;
+  z-index: 2;
+	transition: 0.5s;
+}
+
+h2 {
+  margin-bottom: 10px;
+  margin-top: 0;
+  font-size: 30px;
+}
+
+p {
+  font-size: 18px;
+}
+
+a {
+  margin-top: 10px;
+  font-size: 14px;
+  display: inline-block;
+  text-decoration: none;
+  color: #777;
+  padding: 6px 10px;
+  font-weight: 600;
+  background-color: white;
+  box-shadow: 0 2px 20px rgba(0,0,0,0.05);
+}
+--------- */
+
+
+/* body {
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -12,4 +201,4 @@ body {
       font-size: 40px;
       border: 3px solid #351435;
       padding: 40px 80px;
-  }
+  }*/
