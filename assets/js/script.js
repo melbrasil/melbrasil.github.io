@@ -1,7 +1,7 @@
-//alert("esta a funcionar") 
+
 
 for(var i = 1; i < 30; i++) {
-    console.log('Exercício 1 repetição ' + i + ' 🏃‍♂️')
+    console.log('rebebebeu repetição ' + i + ' 🏃‍♂️')
 }
 
 
