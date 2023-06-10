@@ -13,7 +13,7 @@ footer {
 .footer_list {
     display: flex;
     flex-direction: column;
-    @media (min-width: $medium) {
+    @media (min-width: $small) {
         flex-direction: row;
         gap: 2rem;
     }

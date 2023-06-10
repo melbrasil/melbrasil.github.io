@@ -44,7 +44,7 @@
     color: #787878;
 }
 
-@media (min-width: $medium) {
+@media (min-width: $small) {
 
     #skills_div {
         flex-direction: row;
@@ -52,7 +52,7 @@
     }
 
     .skills_collumns {
-        width: calc((100% / 4) - ((3 * 24px) / 4));
+        width: calc((100% / 2) - ((3 * 24px) / 2));
 
     }
 
@@ -61,7 +61,13 @@
         gap: 24px;
     }
 
+}
 
+@media (min-width: $large) {
+
+    .skills_collumns {
+        width: calc((100% / 4) - ((3 * 24px) / 4));
+    }
 }
 
 .special_p {
