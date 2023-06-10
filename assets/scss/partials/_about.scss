@@ -1,0 +1,69 @@
+/* --- about page --- */
+
+#about_section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#skills_section {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+#skills_div {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    ul {
+        display: block;
+    }
+}
+
+.skills_collumns {
+    height: auto;
+    margin-bottom: 32px;
+    margin-top: 0;
+}
+
+.justify {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.skill_ranking {
+    color: #787878;
+}
+
+@media (min-width: $medium) {
+
+    #skills_div {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .skills_collumns {
+        width: calc((100% / 4) - ((3 * 24px) / 4));
+
+    }
+
+    #about_text {
+        column-count: 2;
+        gap: 24px;
+    }
+
+
+}
+
+.special_p {
+    margin: 0.2rem 0;
+}

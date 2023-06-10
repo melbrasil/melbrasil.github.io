@@ -1,0 +1,47 @@
+
+img,
+figure {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+@media (min-width: $medium) {
+
+    .grid {
+        .project_h2 {
+            grid-column: 1 / span 12;
+            order: 1;
+        }
+        .first_image {
+            grid-column: 1 / 7 ;
+            order: 2;
+        }
+        .second_image {
+            grid-column: 7 / 13;
+            order: 2;
+        }
+        .project_h3 {
+            grid-column: 1 / span 12;
+            order: 3;
+        }
+        .project_context {
+            grid-column: 1 / 7;
+            order: 4;
+        }
+        .project_description {
+            grid-column: 7 / 13;
+            order: 4;
+        }
+        .link_animation {
+            grid-column: 7 / 13;
+            order: 5;
+
+        }
+
+    }
+}
+
+strong {
+    font-weight: 800;
+}

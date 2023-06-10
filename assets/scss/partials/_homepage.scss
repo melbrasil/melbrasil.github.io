@@ -1,0 +1,76 @@
+/* --- home page --- */
+
+.hero {
+  width: 100svw;
+  height: calc(100% - 61.5px);
+  display: flex;
+  margin: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+  justify-content: space-between;
+
+  .presentation {
+    top: calc((100vh - 297.9px) / 3);
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  p,
+  h2 {
+    padding: 0 1rem;
+  }
+
+  @media (min-width: $small) {
+    .presentation {
+    top: calc((100vh - 200px) / 3);
+    }
+  }
+
+  @media (min-width: $medium) {
+
+    height: calc(100% - 88px);
+
+    #page_title {
+      font-size: 6rem;
+    }
+
+    h2 {
+      font-size: 3rem;
+    }
+
+    .presentation {
+      top: calc((100vh - 247.5px) / 3);
+    }
+  }
+
+  @media (min-width: $large) {
+
+    #page_title {
+      font-size: 8rem;
+    }
+
+    h2 {
+      font-size: 4rem;
+    }
+
+    .presentation {
+      top: calc((100vh - 355.5px) / 3);
+    }
+  }
+}
+
+#page_title {
+  font-size: 4rem;
+  font-family: 'Prosto One', cursive;
+}
+
+.projects_list {
+  flex-direction: column;
+}
+
+.link_projects {
+  text-decoration: none;
+}

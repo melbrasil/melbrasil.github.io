@@ -1,15 +1,44 @@
 footer {
     background-color: $primary-color;
-    height: 50px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    bottom: 0;
+
+    p {
+        margin: 0.5rem 0;
+    }
+
 }
 
-/*footer p {
+.footer_list {
     display: flex;
-    justify-content: center;
-}*/
-
-p {
-    @include textSmall;
+    flex-direction: column;
+    @media (min-width: $medium) {
+        flex-direction: row;
+        gap: 2rem;
+    }
 }
+
+.footer-row {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 0 1rem;
+
+    @media (min-width: $medium) {
+        flex-direction: row;
+    }
+
+    &:first-child {
+        background-color: $main-background-color;
+        color: $primary-color;
+    }
+
+    &:last-child {
+        background-color: $primary-color;
+        color: $main-background-color;
+    }
+} 
+
+

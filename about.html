@@ -1,48 +1,234 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-    <link rel="stylesheet" href="assets/css/stylesheet.css">
-</head>
-<body>
-    <header>
-         @import nav 
-    </header>
-    <main>
-        <h1>about</h1>
-    </main>
-    <footer>
-        <p>Juro</p>
-    </footer>
-</html>
-
--->
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
+    <title>Melissa Brasil</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mel, a melhor frontend</title>
+    <meta name="theme-color" content="rgb(113, 19, 157)">
+
+    <link rel="icon" type="image/svg" href="assets/img/theme.svg">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,500;0,700;0,800;1,400;1,500;1,700;1,800&family=Prosto+One&display=swap');
+    </style>
+    
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="assets/css/style.css">
-</head><body>
+
+</head>
+<body>
 <header>
-    <h2>Cabeçalho</h2>
-    <nav id="main-navigation">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contacts.html">Contacts</a></li>
-        </ul>
-    </nav>
+    <div id="header_container">
+        <h1 alt="Melissa Brasil">M ✺ B</h1>
+        <button class="btn--toggle-menu">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+        <nav id="main-navigation">
+            <ul>
+                <li><a  href="index.html">Home</a></li>
+                <li><a  href="about.html">About</a></li>
+                <li><a  href="contacts.html">Contacts</a></li>
+            </ul>
+        </nav>
+</div>
 </header>    <main>
-        <h1>about</h1>
-        <p>texto sobre</p>
+        <section id="about_section" class="grid">
+            <h2>About</h2>
+            <p id="about_text">ghgfghjhg Hi! I'm Melissa Brasil, but everyone calls me Mel! I'm 24 years old and I'm a Product
+                Designer. Ive been
+                working in this field for almost 2 years now and my main goal is to keep improving to be able to create
+                amazing designs! An important thing to know about me is that I live by this quote down here, a principle
+                that sits at the core of UX design. The main goal of any business is to make sure the end users are
+                happy
+                and can navigate through the site without difficulty. We as UX designers have to understand the users
+                needs,
+                behaviour, expectations, motivations, and frustrations. That is the secret to create a great design!
+            </p>
+
+            <div class="marquee"><span class="marquee_content"> ✺ "people ignore design that ignores people” ✺ “people ignore
+                design that ignores people” ✺ “people ignore design that ignores people” ✺ “people ignore design that ignores
+                people” ✺ “people ignore design that ignores people”</span></div>
+
+            <section id="skills_section">
+                <h2>
+                    More about me
+                </h2>
+                <div id="skills_div">
+                    <ul class="skills_collumns">
+                        <h3>Software Skills</h3>
+                        <li class="justify">
+                            <p class="special_p">
+                                Adobe InDesign
+                            </p>
+                            <p class="special_p">
+                                ✺✺✺✺<span class="skill_ranking">✺</span>
+                            </p>
+                        </li>
+                        <li class="justify">
+                            <p class="special_p">
+                                Adobe Illustrator
+                            </p>
+                            <p class="special_p">
+                                ✺✺✺✺<span class="skill_ranking">✺</span>
+                            </p>
+                        </li>
+                        <li class="justify">
+                            <p class="special_p">
+                                Adobe Photoshop
+                            </p>
+                            <p class="special_p">
+                                ✺✺✺<span class="skill_ranking">✺✺</span>
+                            </p>
+                        </li>
+                        <li class="justify">
+                            <p class="special_p">
+                                Adobe Lightroom
+                            </p>
+                            <p class="special_p">
+                                ✺✺<span class="skill_ranking">✺✺✺</span>
+                            </p>
+                        </li>
+                        <li class="justify">
+                            <p class="special_p">
+                                Adobe Premiere
+                            </p>
+                            <p class="special_p">
+                                ✺✺<span class="skill_ranking">✺✺✺</span>
+                            </p>
+                        </li>
+                        <li class="justify">
+                            <p class="special_p">
+                                Adobe After Effects
+                            </p>
+                            <p class="special_p">
+                                ✺<span class="skill_ranking">✺✺✺✺</span>
+                            </p>
+                        </li>
+                        <li class="justify">
+                            <p class="special_p">
+                                Sketch / Figma
+                            </p>
+                            <p class="special_p">
+                                ✺✺✺✺<span class="skill_ranking">✺</span>
+                            </p>
+                        </li>
+                        <li class="justify">
+                            <p class="special_p">
+                                Adobe XD
+                            </p>
+                            <p class="special_p">
+                                ✺✺✺✺<span class="skill_ranking">✺</span>
+                            </p>
+                        </li>
+                        <li class="justify">
+                            <p class="special_p">
+                                HTML5 / CSS3
+                            </p>
+                            <p class="special_p">
+                                ✺✺<span class="skill_ranking">✺✺✺</span>
+                            </p>
+                        </li>
+                    </ul>
+                    <div class="skills_collumns">
+                        <h3>
+                            Education
+                        </h3>
+                        <p>
+                            2018 — 2021<br>
+                            <strong>Degree in Communication Design</strong><br>
+                            Faculty of Fine-Arts of the University of Lisbon
+                        </p>
+                        <p>
+                            2022 — 2023 (on going)<br>
+                            <strong>Course in Digital Experience Design</strong> <br>
+                            Faculty of Fine-Arts of the University of Lisbon
+                        </p>
+                    </div>
+                    <div class="skills_collumns">
+                        <h3>
+                            Work Experience
+                        </h3>
+                        <p>
+                            2021 — Present<br>
+                            <strong>UX / UI Designer</strong><br>
+                            Inetum Portugal, Lisbon
+                        </p>
+                        <p>
+                            Interface creation utilising user experience focused methodologies, backed-up by user
+                            research,
+                            ux assessments, information architecture, wireframing, prototyping and more. Design of
+                            styleguides and
+                            hand-offs for the development team.
+                            Mainly involved in the ePortugal project.
+                        </p>
+                    </div>
+                    <div class="skills_collumns">
+                        <h3>
+                            Trainning Courses
+                        </h3>
+                        <p>
+                            2022<br>
+                            <strong>Cognitive Psychology applied to UX</strong><br>
+                            Amyris Fernandez, Udemy
+                        </p>
+                        <p>
+                            2021<br>
+                            <strong>WEB Accessibility</strong><br>
+                            Leiria Technical School
+                        </p>
+                        <p>
+                            2021<br>
+                            <strong>Accessibility of Digital Content</strong><br>
+                            AMA - Agência para a Modernização Administrativa
+                        </p>
+                    </div>
+                </div>
+
+            </section>
+        </section>
     </main>
 <footer>
-    <p>Rodapé</p>
+    <div class="footer-row">
+        <p>Open to work ☻</p>
+        <div>
+            <ul class="footer_list">
+               
+                <li>
+                    <a href="https://drive.google.com/file/d/1Od65AeHdaOANFt-MgdZPg8LklpPoXMSL/view?usp=sharing" target="_blank" class="link_animation" alt="open Meliissa Brasil's curriculum in PDF">curriculum<span
+                            class="material-symbols-outlined">
+                            south_east
+                        </span></a>
+                </li>
+                <li>
+                    <a href="https://www.behance.net/melissa-brasil" target="_blank" class="link_animation" alt="open Melissa Brasil's curriculum in PDF">behance<span
+                            class="material-symbols-outlined">
+                            south_east
+                        </span></a>
+                </li>
+                <li>
+    
+                    <a class="link_animation" href="https://www.linkedin.com/in/melissa-brasil/" target="_blank"  alt="open Melissa Brasil's linkedin">linkedin<span
+                            class="material-symbols-outlined">
+                            south_east
+                        </span></a>
+                </li>
+                <li>
+                    <a href="mailto:melissa.mendes.brasil99@gmail.com" target="_blank" class="link_animation" alt="click to send Melissa Brasil an e-mail">e-mail<span
+                            class="material-symbols-outlined">
+                            south_east
+                        </span></a>
+                </li>
+    
+            </ul>
+        </div> 
+    </div>
+    <div class="footer-row">
+        <p>© Melissa Brasil</p>
+    </div>
 </footer>
+
 <script src="/assets/js/script.js"></script></body>
+
 </html>
