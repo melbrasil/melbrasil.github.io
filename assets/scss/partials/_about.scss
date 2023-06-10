@@ -72,3 +72,10 @@
     display: flex;
     flex-direction: column;
 }
+
+.marquee_container {
+    position: relative;
+    width: 100%;
+    padding: 24px 0;
+    height: 20px;
+}
