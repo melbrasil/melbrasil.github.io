@@ -30,3 +30,31 @@ for(var i = 0; i < anchor.length; i++) {
     }    
 }
 
+// teste gradient -------------
+
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+
+    console.log('pc')
+
+} else{
+        var spot_cont = document.getElementById('gradient_container');
+
+        document.body.addEventListener('mousemove', item_hover)
+
+        var spot = document.getElementById('spotlight');
+
+}
+
+function item_hover(evt) {
+
+    var spothalf = spot.offsetWidth / 2;
+
+    evt = evt || window.event;
+
+    var x = evt.clientX;
+    var y = evt.clientY;
+
+    var kt = document.getElementById('spotlight');
+    kt.style.left = x - spothalf + 'px';
+    kt.style.top = y - spothalf + 'px';
+}
