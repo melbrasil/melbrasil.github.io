@@ -37,9 +37,6 @@ main {
 
 h1 {
   @include textH1;
-  @media (min-width: $large) {
-    font-size: 2rem;
-  }
 }
 
 h2 {
